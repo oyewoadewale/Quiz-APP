@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rocks.athrow.android_quiz_app.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#92a798"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textColor="#f9faf9"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_1"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question1_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="1962"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question1_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="1985"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question1_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="1960"
+                android:textColor="#fefeff" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question2_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_2"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question2_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Abuja"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question2_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Lagos"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question2_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Kano"
+                android:textColor="#fefeff" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_3"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/question3_choice1"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Sani Abacha"
+            android:textColor="#fefeff" />
+
+        <CheckBox
+            android:id="@+id/question3_choice2"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Goodluck Jonathan"
+            android:textColor="#fefeff" />
+
+        <CheckBox
+            android:id="@+id/question3_choice3"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Muhammadu buhari"
+            android:textColor="#fefeff" />
+
+        <CheckBox
+            android:id="@+id/question3_choice4"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Babatunde Fashola"
+            android:textColor="#fefeff" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question4_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_4"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question4_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Abuja"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question4_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Lagos"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question4_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Rivers"
+                android:textColor="#fefeff" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_5"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question5_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nnamdi Azikwe"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question5_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tafawa Balewa"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question5_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sule Lamido"
+                android:textColor="#fefeff" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_6"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/question6_choice1"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Middle_belt"
+            android:textColor="#fefffe" />
+
+        <CheckBox
+            android:id="@+id/question6_choice2"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="cross river"
+            android:textColor="#fefeff" />
+
+        <CheckBox
+            android:id="@+id/question6_choice3"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Niger"
+            android:textColor="#fefeff" />
+
+        <CheckBox
+            android:id="@+id/question6_choice4"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="#113815"
+            android:text="Benue"
+            android:textColor="#fefeff" />
+
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_7"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#113815"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question7_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Micheal Taiwo Akinwunmi"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question7_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akindele Taiwo Obadinmu"
+                android:textColor="#fefeff" />
+
+            <RadioButton
+                android:id="@+id/question7_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flora shaw"
+                android:textColor="#fefeff" />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="@string/question_8"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question8_answer"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/editable"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:background="#113815"
+            android:onClick="gradingButton"
+            android:text="@string/submit"
+            android:textColor="#fefeff" />
+
+    </LinearLayout>
+</ScrollView>

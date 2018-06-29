@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nigeria Quiz app</string>
+    <string name="title">Nigeria current affairs app</string>
+    <string name="editable">Type your answer here</string>
+    <string name="question_1">Question1: What year did Nigeria gain independence</string>
+    <string name="question_2">Question2; Which state is the capital city of Nigeria</string>
+    <string name="question_3">Question3; Whom of these was a (former)head of state in Nigeria</string>
+    <string name="question_4">Question4; Which state in Nigeria is known as the centre of excellence</string>
+    <string name="question_5">Question5; Who is the first prime minister in Nigeria</string>
+    <string name="question_6">Question6; The two rivers that met at the centre of Nigeria are River_______ and ________</string>
+    <string name="question_7">Question7; Who designed the National flag of Nigeria</string>
+    <string name="question_8">Question8;Which state in Nigeria is called the centre of commerce</string>
+    <string name="editText_1">Enter your name here</string>
+
+    <string name="submit">"Submit"</string>
+</resources>
