@@ -7,3 +7,8 @@ kindly find below the link to where i host the apk on google drive;
 https://drive.google.com/open?id=1Q2qfnnL8bOt2NcXbpPUEde57kIXwYy-O
 
 My special thanks to the ALC Team (Andela, Udacity and Google)for giving me this opportunity. i really appreciate
+
+
+Kindly find below an attached screenshot of the application
+
+![nigeria quiz app](https://user-images.githubusercontent.com/38193029/42134116-e242222a-7d2c-11e8-81eb-a8e1fd5b9c41.png)
