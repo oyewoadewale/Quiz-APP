@@ -6,4 +6,4 @@ kindly find below the link to where i host the apk on google drive;
 
 https://drive.google.com/open?id=1Q2qfnnL8bOt2NcXbpPUEde57kIXwYy-O
 
-thank you so much, i really appreciate
+My special thanks to the ALC Team (Andela, Udacity and Google)for giving me this opportunity. i really appreciate
