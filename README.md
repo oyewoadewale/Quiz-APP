@@ -1,6 +1,6 @@
 # Quiz-APP
-This is a educative, and a very interesting app, that quizzes users on Nigeria's current affairs
-It has 8 questions which user can answer using either a radio buttons, checkboxes or an Edittext
+This Project is built by Oyewo Adewale, as part of the requirement of completing the ALC Challenge 2.0 (7days challenge). it is a educative, and a very interesting app, that quizzes users on Nigeria's current affairs,
+It has 8 questions which user can answer their questions using either a radio buttons, checkboxes or an Edittext provided, then the app calculates the users score then displays it in a toast message.
 
 kindly find below the link to where i host the apk on google drive;
 
