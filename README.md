@@ -11,4 +11,5 @@ My special thanks to the ALC Team (Andela, Udacity and Google)for giving me this
 
 Kindly find below an attached screenshot of the application
 
-![nigeria quiz app](https://user-images.githubusercontent.com/38193029/42134116-e242222a-7d2c-11e8-81eb-a8e1fd5b9c41.png)
+
+![nigeria quiz app](https://user-images.githubusercontent.com/38193029/42134166-1e214978-7d2e-11e8-9b36-3864ad3e5434.jpg)
